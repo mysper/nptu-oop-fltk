@@ -19,6 +19,7 @@ g++ \
 -D_REENTRANT \
 -std=c++11 \
 -I./FLTK \
+-I./Widget \
 -o 'main' 'main.cpp' \
 -Wl,-Bsymbolic-functions \
 -Wl,-z,relro -Wl,-z,now -lfltk -lX11
